@@ -1,0 +1,172 @@
+body {
+     width: 100%;
+     background-image: url(burger.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     align-items: center;
+}
+
+#header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1px 1px;
+     background: rgb(15, 93, 20);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.logo {
+     border-radius: 50%;
+
+}
+
+#navbar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#navbar li {
+     list-style: none;
+     padding: 0 20px;
+     align-items: center;
+
+}
+
+#navbar li a {
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     color: rgb(111, 219, 81);
+     transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+     color: aqua;
+}
+
+h1 {
+     text-align: center;
+     color: rgb(109, 200, 71);
+
+}
+
+marquee {
+     background-color: rgb(242, 218, 39);
+     color: rgb(228, 44, 44);
+}
+
+h3 {
+     text-align: center;
+}
+
+.app {
+     height: 20%;
+}
+
+#header {
+     background-image: url(restro.jpeg);
+     background-position: center;
+     background-size: cover;
+     height: 100%;
+     background-repeat: no-repeat;
+}
+
+.WE {
+     color: white;
+     text-align: justify;
+
+}
+
+#wep {
+     color: white;
+     text-decoration: none;
+
+}
+
+#BE {
+     text-align: center;
+     background-color: rgb(208, 232, 208);
+     height: 50px;
+     width: 200px;
+     font-size: 1.5em;
+
+     box-shadow: 0 6px 6px rgba(57, 152, 31, 0.488);
+     cursor: pointer;
+     border: 1px solid green;
+
+}
+
+button .a {
+     color: rgb(207, 247, 207);
+     text-decoration: none;
+}
+
+button a:hover {
+     color: rgb(107, 194, 107);
+}
+
+.ARTI {
+     text-align: center;
+     background-image: url(food.jpeg);
+     color: black;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+
+}
+
+.apu {
+     color: rgb(255, 255, 255);
+
+     font-size: 35px;
+     height: 50%;
+     width: 100%;
+
+     border-color: rgb(28, 25, 25);
+
+}
+
+#product1 .fire {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+     flex-wrap: wrap;
+     float: left;
+     width: 300px;
+     height: 300px;
+
+
+
+
+
+}
+
+#product1 .fox {
+     width: 23%;
+     min-height: 250px;
+     min-width: 250px;
+     padding: 10px 12px;
+     border: 1px solid rgb(248, 244, 244);
+     border-radius: 25px;
+     cursor: pointer;
+
+     margin: 15px 0;
+     transition: 0.2s ease;
+     background-color: white;
+}
+
+#product1 .fox :hover {
+     box-shadow: 20px 20px 30px rgba(160, 152, 152, 0.96);
+
+}
+
+#product1 .fox img {
+     width: 100%;
+     border-radius: 20px;
+     border-color: rgb(255, 251, 251);
+}
